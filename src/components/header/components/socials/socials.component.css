@@ -1,0 +1,23 @@
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+    position: absolute;
+    bottom: 3rem;
+}
+.header__socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--primary-color);
+}
+
+/**
+  * Media Queries (Small Devices)
+  */
+@media screen and (max-width: 600px) {
+    .header__socials {
+        display: none;
+    }
+}
