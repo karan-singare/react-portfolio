@@ -6,6 +6,8 @@ export default class Services extends React.Component {
   }
 
   render() {
-    return <div>About</div>
+    return (
+      <section id='services'>Services</section>
+    )
   }
 }

@@ -6,6 +6,8 @@ export default class Experience extends React.Component {
   }
 
   render() {
-    return <div>Experience</div>
+    return (
+      <section id='experience'>Experience</section>
+    )
   }
 }

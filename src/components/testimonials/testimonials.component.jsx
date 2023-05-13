@@ -6,6 +6,8 @@ export default class Testimonials extends React.Component {
   }
 
   render() {
-    return <div>Testimonials</div>
+    return (
+      <section id='testimonials'>Testimonials</section>
+    )
   }
 }

@@ -6,6 +6,8 @@ export default class Contact extends React.Component {
   }
 
   render() {
-    return <div>Contact</div>
+    return (
+      <section id='contact'>Contact</section>
+    )
   }
 }

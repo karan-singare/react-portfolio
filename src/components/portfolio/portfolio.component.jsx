@@ -6,6 +6,8 @@ export default class Portfolio extends React.Component {
   }
 
   render() {
-    return <div>About</div>
+    return (
+      <section id='portfolio'>Portfolio</section>
+    )
   }
 }
